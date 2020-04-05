@@ -90,8 +90,7 @@ AbstractAutoProxyCreator implements BeanPostProcessor
 > 예를 들어 sombrero.aop.proxy_pattern.SimpleEventService가 빈으로 등록이 되면 <br/>
 스프링이 AbstractAutoProxyCreator라는 BeanPostProcessor로 <br/>
 SimpleEventService 빈을 감싸는 프록시 빈을 만들어서 그 프록시 빈을 SimpleEventService 빈 대신에 등록해준다.<br/>
-
-<br/><br/>
+<br/>
 
 ## 스프링 AOP (@AOP)
 
