@@ -77,7 +77,7 @@ CGlib은 클래스 기반 프록시도 지원.<br/>
 클라이언트 코드 변경 없음.<br/>
 AbstractAutoProxyCreator implements BeanPostProcessor<br/>
 (BeanPostProcessor: 어떤 빈이 등록되면 그 빈을 가공할 수 있는 라이프사이클 인터페이스.)<br/>
-> ** 예를 들어 sombrero.aop.proxy_pattern.SimpleEventService가 빈으로 등록이 되면 <br/>
+> 예를 들어 sombrero.aop.proxy_pattern.SimpleEventService가 빈으로 등록이 되면 <br/>
 스프링이 AbstractAutoProxyCreator라는 BeanPostProcessor로 <br/>
 SimpleEventService 빈을 감싸는 프록시 빈을 만들어서 그 프록시 빈을 SimpleEventService 빈 대신에 등록해준다.<br/>
 
