@@ -10,16 +10,17 @@ Aspect-oriented Programming(AOP)는 OOP를 보완하는 수단으로, <br/>
 <br/>
 
 ## AOP 주요 개념
-- Aspect(모듈)<br/>
+#### (1) Aspect(모듈)<br/>
 어드바이스와 포인트컷을 합친 개념.<br/>
 Aspect = Advice + Pointcut (해야할 일들을 어디에 적용?)<br/>
-- Target(적용 대상 클래스)<br/>
-- Advice(해야할 일들)<br/>
-- Join point(합류점)<br/>
+
+#### (2) Target(적용 대상 클래스)<br/>
+#### (3) Advice(해야할 일들)<br/>
+#### (4) Join point(합류점)<br/>
 끼어들 수 있는 지점.<br/>
 메서드 실행 시점을 흔하게 사용. (메서드 실행할 때 Advice를 끼워넣어라.)<br/>
 생성자 호출 직전, 생성자 호출 했을 때, 필드에 접근하기 전, 필드에서 값을 가져갔을 때 등등<br/>
-- Pointcut(어디에 적용)<br/>
+#### (5) Pointcut(어디에 적용)<br/>
 Join point의 구체적인 sub set.<br/>
 'A라는 클래스의 b라는 메서드를 호출할 때 적용해라.'<br/>
 <br/>
