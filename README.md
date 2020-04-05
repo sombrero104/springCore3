@@ -9,7 +9,10 @@ Aspect-oriented Programming(AOP)는 OOP를 보완하는 수단으로, <br/>
 ![aop](./images/aop.png)<br/>
 
 ## AOP 주요 개념
-- Aspect(모듈)와 Target(적용 대상 클래스)<br/>
+- Aspect(모듈)
+어드바이스와 포인트컷을 합친 개념.<br/>
+Aspect = Advice + Pointcut <br/>
+- Target(적용 대상 클래스)<br/>
 - Advice(해야할 일들)<br/>
 - Join point(합류점)<br/>
 끼어들 수 있는 지점.<br/>
