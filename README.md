@@ -7,6 +7,7 @@ Aspect-oriented Programming(AOP)는 OOP를 보완하는 수단으로, <br/>
 <br/>
 
 ![aop](./images/aop.png)<br/>
+<br/>
 
 ## AOP 주요 개념
 - Aspect(모듈)<br/>
@@ -21,10 +22,12 @@ Aspect = Advice + Pointcut (해야할 일들을 어디에 적용?)<br/>
 - Pointcut(어디에 적용)<br/>
 Join point의 구체적인 sub set.<br/>
 'A라는 클래스의 b라는 메서드를 호출할 때 적용해라.'<br/>
+<br/>
 
 ## AOP 구현체
 - https://en.wikipedia.org/wiki/Aspect-oriented_programming <br/>
 - 자바에서는 AspectJ, 스프링 AOP <br/>
+<br/>
 
 ## AOP 적용 방법
 #### (1) 컴파일 타임<br/>
@@ -46,6 +49,7 @@ A라는 빈에 Aspect가 가진 어떠한 메소드(포인트컷)에 어드바�
 빈을 만들때만 초기 과정에 약간의 성능 부하. <br/>
 위에서의 컴파일 타임과 로드 타임과 같이 별도의 컴파일러나 자바 에이전트(로드 타임 위버)를 설정하지 않아도 되고, <br/>
 문법이 쉽고 AOP에 대해 많이 공부하지 않아도 된다. <br/>
+<br/>
 
 ## 프록시 기반 AOP
 ### 스프링 AOP 특징
@@ -53,6 +57,7 @@ A라는 빈에 Aspect가 가진 어떠한 메소드(포인트컷)에 어드바�
 - 스프링 빈에만 AOP를 적용할 수 있다. <br/>
 - 모든 AOP 기능을 제공하는 것이 목적이 아니라, <br/>
 스프링 IoC와 연동하여 엔터프라이즈 애플리케이션에서 가장 흔한 문제에 대한 해결책을 제공하는 것이 목적.<br/>
+<br/>
 
 ### 프록시 패턴
 기존 코드 변경 없이 접근 제어 또는 부가 기능 추가.<br/>
