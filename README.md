@@ -19,6 +19,10 @@ Aspect-oriented Programming(AOP)는 OOP를 보완하는 수단으로, <br/>
 Join point의 구체적인 sub set.<br/>
 'A라는 클래스의 b라는 메서드를 호출할 때 적용해라.'<br/>
 
+## AOP 구현체
+- https://en.wikipedia.org/wiki/Aspect-oriented_programming <br/>
+- 자바에서는 AspectJ, 스프링 AOP <br/>
+
 ## AOP 적용 방법
 - 컴파일 타임<br/>
 - 로드 타임<br/>
