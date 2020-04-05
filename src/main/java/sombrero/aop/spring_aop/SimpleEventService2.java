@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  *  deleteEvent()는 제외. 시간 성능 측정하지 않음.
  */
 @Service
-public class SimpleEventService implements EventService {
+public class SimpleEventService2 implements EventService {
 
     @Override
     public void createEvent() {
