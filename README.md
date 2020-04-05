@@ -58,5 +58,12 @@ A라는 빈에 Aspect가 가진 어떠한 메소드(포인트컷)에 어드바�
 
 ![proxy_pattern](./images/proxy_pattern.png)<br/>
 
+#### ** 프록시 패턴을 구현해보자.
+=> sombrero.aop.proxy_pattern 패키지 참조.<br/>
+그런데..<br/>
+- 매번 프록시 클래스를 작성해야 하는가?<br/>
+- 여러 클래스 여러 메소드에 적용하려면?<br/>
+- 객체들 관계도 복잡하고..<br/>
+
 <br/><br/>
 
