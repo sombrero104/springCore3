@@ -1,9 +1,12 @@
-package sombrero.aop;
+package sombrero.aop.proxy_pattern;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
+/**
+ * AOP에서 Proxy 역할.
+ */
 /**
  * @Primary
  * 같은 타입의 빈이 여러개가 있을 때 그 중 하나를 선택하는 방법.

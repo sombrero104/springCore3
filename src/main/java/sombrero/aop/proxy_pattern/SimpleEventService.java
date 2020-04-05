@@ -1,4 +1,4 @@
-package sombrero.aop;
+package sombrero.aop.proxy_pattern;
 
 import org.springframework.stereotype.Service;
 
