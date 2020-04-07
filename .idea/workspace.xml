@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56298ac-0d6a-4fdd-a280-a64fcb00dbca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/AppRunner3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfAspect2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfLogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/SimpleEventService3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/PerfAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/PerfAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/SimpleEventService2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/SimpleEventService2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sombrero/aop/spring_aop/PerfAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sombrero/aop/spring_aop/PerfAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sombrero/aop/spring_aop/SimpleEventService2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sombrero/aop/spring_aop/SimpleEventService2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,23 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/PerfAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfLogging.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -62,11 +59,16 @@
         <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/AppRunner2.java" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/SimpleEventService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/SimpleEventService2.java" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/proxy_pattern/ProxySimpleEventService.java" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/proxy_pattern/SimpleEventService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/PerfAspect.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/PerfLogging.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/SimpleEventService2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/PerfAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/SimpleEventService3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfAspect2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfLogging.java" />
       </list>
     </option>
   </component>
@@ -145,7 +147,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sombrero" type="462c0819:PsiDirectoryNode" />
               <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_aop" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_aop_annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCore3" type="b2602c69:ProjectViewProjectNode" />
@@ -163,9 +165,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sombrero.aop.spring_aop" />
     </key>
@@ -214,21 +220,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="710" y="23" width="1210" height="967" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21575342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35787672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32914287" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914287" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32914287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32914287" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32914287" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32914287" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32914287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -294,10 +301,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="107" column="3" lean-forward="true" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/AppRunner2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -311,27 +325,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/SimpleEventService2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/PerfAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="361">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop/SimpleEventService2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="675">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/SimpleEventService3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/AppRunner3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfAspect2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

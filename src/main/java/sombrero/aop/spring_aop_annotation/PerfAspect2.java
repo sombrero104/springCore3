@@ -1,4 +1,4 @@
-package sombrero.aop.spring_aop;
+package sombrero.aop.spring_aop_annotation;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Aspect
-public class PerfAspect {
+public class PerfAspect2 {
 
     /**
      * 아래에서 인자로 받는 ProceedingJoinPoint 는 => 어드바이스가 적용되는 대상.
@@ -26,11 +26,11 @@ public class PerfAspect {
      * 때문에 메서드 호출 이전에도 뭔가를 할 수 있고, 이후에도 뭔가를 할 수 있다.
      * 또는 메소드에서 발생한 에러를 잡아서 에러가 발생했을 때 특정한 일을 할수도 있다.
      */
-    @Around("execution(* sombrero.aop.spring_aop.EventService.*(..))")
+    @Around("execution(* sombrero.aop.spring_aop_annotation.EventService.*(..))")
     public Object logPerf(ProceedingJoinPoint pjp) throws Throwable {
         long begin = System.currentTimeMillis();
         Object retVal = pjp.proceed(); // 메서드 호출
-        // System.out.println("# [aop][spring_aop][PerfAspect2] time: " + (System.currentTimeMillis() - begin));
+        System.out.println("# [aop][spring_aop_annotation][PerfAspect2] time: " + (System.currentTimeMillis() - begin));
         return retVal;
     }
 

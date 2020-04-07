@@ -1,4 +1,4 @@
-package sombrero.aop.spring_aop;
+package sombrero.aop.spring_aop_annotation;
 
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  *  deleteEvent()는 제외. 시간 성능 측정하지 않음.
  */
 @Service
-public class SimpleEventService2 implements EventService {
+public class SimpleEventService3 implements EventService {
 
     @Override
     public void createEvent() {
@@ -22,7 +22,7 @@ public class SimpleEventService2 implements EventService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        // System.out.println("Created an event.");
+        System.out.println("Created an event.");
 
         // System.out.println(System.currentTimeMillis() - begin);
     }
@@ -36,14 +36,14 @@ public class SimpleEventService2 implements EventService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        // System.out.println("Published an event.");
+        System.out.println("Published an event.");
 
         // System.out.println(System.currentTimeMillis() - begin);
     }
 
     @Override
     public void deleteEvent() {
-        // System.out.println("Delete an event.");
+        System.out.println("Delete an event.");
     }
 
 }
