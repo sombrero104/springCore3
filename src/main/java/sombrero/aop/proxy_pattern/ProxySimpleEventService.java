@@ -29,14 +29,14 @@ public class ProxySimpleEventService implements EventService {
     public void createEvent() {
         long begin = System.currentTimeMillis();
         simpleEventService.createEvent();
-        System.out.println("# [aop][proxy_pattern][ProxySimpleEventService] createEvent time: " + (System.currentTimeMillis() - begin));
+        // System.out.println("# [aop][proxy_pattern][ProxySimpleEventService] createEvent time: " + (System.currentTimeMillis() - begin));
     }
 
     @Override
     public void publishEvent() {
         long begin = System.currentTimeMillis();
         simpleEventService.publishEvent();
-        System.out.println("# [aop][proxy_pattern][ProxySimpleEventService] publishEvent time: " + (System.currentTimeMillis() - begin));
+        // System.out.println("# [aop][proxy_pattern][ProxySimpleEventService] publishEvent time: " + (System.currentTimeMillis() - begin));
     }
 
     @Override

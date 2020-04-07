@@ -22,7 +22,7 @@ public class SimpleEventService implements EventService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Created an event.");
+        // System.out.println("Created an event.");
 
         // System.out.println(System.currentTimeMillis() - begin);
     }
@@ -36,14 +36,14 @@ public class SimpleEventService implements EventService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Published an event.");
+        // System.out.println("Published an event.");
 
         // System.out.println(System.currentTimeMillis() - begin);
     }
 
     @Override
     public void deleteEvent() {
-        System.out.println("Delete an event.");
+        // System.out.println("Delete an event.");
     }
 
 }
