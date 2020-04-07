@@ -92,7 +92,7 @@ AbstractAutoProxyCreator implements BeanPostProcessor
 SimpleEventService 빈을 감싸는 프록시 빈을 만들어서 그 프록시 빈을 SimpleEventService 빈 대신에 등록해준다.<br/>
 <br/>
 
-## 스프링 AOP (@AOP)
+# 스프링 AOP (@AOP)
 @AOP 의존성 추가. <br/>
 <pre>
 ‹dependency›
