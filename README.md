@@ -93,5 +93,10 @@ SimpleEventService 빈을 감싸는 프록시 빈을 만들어서 그 프록시 
 <br/>
 
 ## 스프링 AOP (@AOP)
-
+<pre>
+‹dependency›
+    ‹groupId›org.springframework.boot‹/groupId›
+    ‹artifactId›spring-boot-starter-aop‹/artifactId›
+‹/dependency›
+</pre>
 <br/><br/>
