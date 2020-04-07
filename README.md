@@ -93,6 +93,7 @@ SimpleEventService 빈을 감싸는 프록시 빈을 만들어서 그 프록시 
 <br/>
 
 ## 스프링 AOP (@AOP)
+@AOP 의존성 추가. <br/>
 <pre>
 ‹dependency›
     ‹groupId›org.springframework.boot‹/groupId›
