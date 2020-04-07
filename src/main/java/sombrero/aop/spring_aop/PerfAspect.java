@@ -5,6 +5,9 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
 
+/**
+ * @Aspect 애노테이션을 붙여서 Aspect 역할을 하는 클래스라는 것을 알려주도록 한다.
+ */
 @Component
 @Aspect
 public class PerfAspect {
