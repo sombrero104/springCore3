@@ -136,5 +136,44 @@ public class PerfAspect {
 어플리케이션을 실행하면 AOP가 적용된 것을 확인할 수 있다.<br/>
 기존의 클래스를 건드리지 않고도 여러 클래스에 중복 코드없이 AOP가 적용되는 것을 확인할 수 있다.<br/>
 (인텔리제이 얼티메이트(유료버전)버전에서는 Aspect가 어디에 적용되는지 IDE에서 메서드에 표시된다.)<br/>
+<br/>
+하지만 여기에서 deleteEvent() 메소드는 AOP가 적용되지 않길 원했는데 이 메소드까지도 AOP가 적용되는 것을 확인할 수 있다.
+deleteEvent() 메소드를 AOP에서 제외하고, createEvent(), publishEvent() 메소드만 AOP를 적용해보자.<br/>
+<br/>
+### * 커스텀 AOP 애노테이션 만들기
+아래와 같이 애노테이션을 만들어준다.<br/>
+<pre>
+@Retention(RetentionPolicy.CLASS)
+@Target(ElementType.METHOD)
+@Documented
+public @interface PerfLogging {
+}
+</pre>
+AOP를 적용할 메소드에 위에서 만든 애노테이션을 붙여준다.<br/>
+<pre>
+@PerfLogging
+@Override
+public void createEvent() {
+    ...
+}
+
+@PerfLogging
+@Override
+public void publishEvent() {
+    ...
+}
+</pre>
+Aspect 클래스에 어드바이스를 적용할 애노테이션으로 위에서 만든 애노테이션 이름을 설정한다.<br/>
+<pre>
+@Component
+@Aspect
+public class PerfAspect2 {
+    @Around("@annotation(PerfLogging)")
+    public Object logPerf(ProceedingJoinPoint pjp) throws Throwable {
+        ...
+    }
+}
+</pre>
+어플리케이션을 실행하면 위에서 만든 애노테이션이 붙은 메소드만 AOP가 적용되는 것을 확인할 수 있다.<br/>
 
 <br/><br/>

@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class SimpleEventService3 implements EventService {
 
+    @PerfLogging
     @Override
     public void createEvent() {
         // long begin = System.currentTimeMillis();
@@ -27,6 +28,7 @@ public class SimpleEventService3 implements EventService {
         // System.out.println(System.currentTimeMillis() - begin);
     }
 
+    @PerfLogging
     @Override
     public void publishEvent() {
         // long begin = System.currentTimeMillis();
