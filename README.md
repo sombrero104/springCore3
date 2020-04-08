@@ -204,5 +204,6 @@ null이 아니어야 하는 곳에 사용. null이 들어가게 되면 IDE에서
 
 IntelliJ에서 'Proferences > Compiler > Configure annotations'에 스프링 애노테이션을 추가한 후 재시작해줘야 한다. <br/>
 정확히는 컴파일 에러가 아닌 Warning 메세지가 뜬다. <br/>
+=> sombrero.null_safety 패키지 참조. <br/>
 
 <br/><br/>
