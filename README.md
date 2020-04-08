@@ -197,9 +197,9 @@ public class PerfAspect2 {
 스프링 프레임워크 5에 추가된 Null 관련 애노테이션<br/>
 목적: (툴의 지원을 받아서) 컴파일 시점에 최대한 NullPointException을 방지하는 것.<br/>
 null이 아니어야 하는 곳에 사용. null이 들어가게 되면 IDE에서 컴파일 에러가 발생해서 확인 가능. <br/>
-- @NonNull : 무조건 값이 있어야 할 경우 사용. 값을 넣지 않으면 IDE에서 컴파일 에러 발생.
+- @NonNull: 무조건 값이 있어야 할 경우 사용. 값을 넣지 않으면 IDE에서 컴파일 에러 발생.
 - @Nullable
-- @NonNullApi (패키지 레벨 설정) : 이 패키지 이하에 있는 모든 리턴타입, 파라미터에 모두 @NonNull을 적용하는 것. (package-info.java)
+- @NonNullApi(패키지 레벨 설정): 이 패키지 이하 모든 리턴타입, 파라미터 모두 @NonNull을 적용.(package-info.java)
 - @NonNullFields (패키지 레벨 설정)
 
 IntelliJ에서 'Proferences > Compiler > Configure annotations'에 스프링 애노테이션을 추가한 후 재시작해줘야 한다. <br/>
