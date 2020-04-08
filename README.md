@@ -191,4 +191,16 @@ public class PerfAspect2 {
 </pre>
 => sombrero.aop.spring_aop_annotation 패키지 참조.<br/>
 
+<br/><br/><br/><br/>
+
+# Null-safety
+스프링 프레임워크 5에 추가된 Null 관련 애노테이션<br/>
+- @NonNull
+- @Nullable
+- @NonNullApi (패키지 레벨 설정)
+- @NonNullFields (패키지 레벨 설정)
+
+### * 목적
+(툴의 지원을 받아서) 컴파일 시점에 최대한 NullPointException을 방지하는 것.<br/>
+
 <br/><br/>
