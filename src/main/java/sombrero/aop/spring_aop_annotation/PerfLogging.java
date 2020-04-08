@@ -3,6 +3,10 @@ package sombrero.aop.spring_aop_annotation;
 import java.lang.annotation.*;
 
 /**
+ * 이 애노테이션을 사용하면 성능을 로깅해 줍니다.
+ */
+
+/**
  * RetentionPolicy를 CLASS 이상의 값으로 설정. (기본값이 CLASS.)
  * RetentionPolicy: 이 애노테이션 정보를 얼마나 유지할 것인가.
  *   CLASS는 클래스 파일까지 유지하겠다는 의미.
