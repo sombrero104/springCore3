@@ -140,7 +140,7 @@ public class PerfAspect {
 하지만 여기에서 deleteEvent() 메소드는 AOP가 적용되지 않길 원했는데 이 메소드까지도 AOP가 적용되는 것을 확인할 수 있다.<br/>
 deleteEvent() 메소드를 AOP에서 제외하고, createEvent(), publishEvent() 메소드만 AOP를 적용해보자.<br/>
 <br/>
-### * 커스텀 AOP 애노테이션 만들기
+## * 커스텀 AOP 애노테이션 만들기
 아래와 같이 애노테이션을 만들어준다.<br/>
 <pre>
 @Retention(RetentionPolicy.CLASS)
