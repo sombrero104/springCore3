@@ -199,9 +199,10 @@ public class PerfAspect2 {
 null이 아니어야 하는 곳에 사용. null이 들어가게 되면 IDE에서 컴파일 에러가 발생해서 확인 가능. <br/>
 - @NonNull : 무조건 값이 있어야 할 경우 사용. 값을 넣지 않으면 IDE에서 컴파일 에러 발생.
 - @Nullable
-- @NonNullApi (패키지 레벨 설정)
+- @NonNullApi (패키지 레벨 설정) : 이 패키지 이하에 있는 모든 리턴타입, 파라미터에 모두 @NonNull을 적용하는 것. (package-info.java)
 - @NonNullFields (패키지 레벨 설정)
 
 IntelliJ에서 'Proferences > Compiler > Configure annotations'에 스프링 애노테이션을 추가한 후 재시작해줘야 한다. <br/>
+정확히는 컴파일 에러가 아닌 Warning 메세지가 뜬다. <br/>
 
 <br/><br/>

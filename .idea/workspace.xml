@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56298ac-0d6a-4fdd-a280-a64fcb00dbca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/null_safety/AppRunner4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/null_safety/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/null_safety/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/null_safety/AppRunner4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/null_safety/AppRunner4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/null_safety/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/null_safety/EventService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +22,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/null_safety/AppRunner4.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/null_safety/EventService.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,9 +44,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/null_safety/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="64" selection-start-column="64" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
+            <state relative-caret-position="444">
               <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
             </state>
           </provider>
@@ -48,6 +67,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -75,9 +95,10 @@
         <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/SimpleEventService3.java" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfLogging.java" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/aop/spring_aop_annotation/PerfAspect2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sombrero/null_safety/EventService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sombrero/null_safety/AppRunner4.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/null_safety/AppRunner4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/null_safety/EventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sombrero/null_safety/package-info.java" />
       </list>
     </option>
   </component>
@@ -93,7 +114,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="619" />
+    <option name="x" value="707" />
     <option name="y" value="23" />
     <option name="width" value="1210" />
     <option name="height" value="967" />
@@ -106,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +180,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,10 +239,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="619" y="23" width="1210" height="967" extended-state="0" />
+    <frame x="707" y="23" width="1210" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25856164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26284248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -380,32 +401,37 @@
     <entry file="file://$PROJECT_DIR$/springCore3.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/null_safety/EventService.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="444">
+          <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/null_safety/AppRunner4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/null_safety/EventService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/null_safety/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="64" selection-start-column="64" selection-end-column="64" />
         </state>
       </provider>
     </entry>

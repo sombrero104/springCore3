@@ -13,7 +13,8 @@ public class AppRunner4 implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        eventService.createEvent(null);
+        // String message = eventService.createEvent(null);
+        String message = eventService.createEvent("hello");
     }
 
 }
