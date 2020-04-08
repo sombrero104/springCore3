@@ -175,5 +175,20 @@ public class PerfAspect2 {
 }
 </pre>
 어플리케이션을 실행하면 위에서 만든 애노테이션이 붙은 메소드만 AOP가 적용되는 것을 확인할 수 있다.<br/>
+<br/>
+
+#### ** 또는 빈 이름으로 설정할 수도 있다.
+아래처럼 설정하면 'simpleEventService3' 빈의 메소드들 모두 AOP를 적용해준다. <br/>
+<pre>
+@Component
+@Aspect
+public class PerfAspect2 {
+    @Around("bean(simpleEventService3)")
+    public Object logPerf(ProceedingJoinPoint pjp) throws Throwable {
+        ...
+    }
+}
+</pre>
+
 
 <br/><br/>

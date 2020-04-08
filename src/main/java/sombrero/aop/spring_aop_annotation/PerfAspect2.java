@@ -27,6 +27,7 @@ public class PerfAspect2 {
      * 또는 메소드에서 발생한 에러를 잡아서 에러가 발생했을 때 특정한 일을 할수도 있다.
      */
     @Around("@annotation(PerfLogging)")
+    // @Around("bean(simpleEventService3)")
     public Object logPerf(ProceedingJoinPoint pjp) throws Throwable {
         long begin = System.currentTimeMillis();
         Object retVal = pjp.proceed(); // 메서드 호출
