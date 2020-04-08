@@ -140,7 +140,7 @@ public class PerfAspect {
 하지만 여기에서 deleteEvent() 메소드는 AOP가 적용되지 않길 원했는데 이 메소드까지도 AOP가 적용되는 것을 확인할 수 있다.<br/>
 deleteEvent() 메소드를 AOP에서 제외하고, createEvent(), publishEvent() 메소드만 AOP를 적용해보자.<br/>
 <br/>
-## * 커스텀 AOP 애노테이션 만들기
+## * 커스텀 AOP 애노테이션 만들기 (선택적 메소드)
 아래와 같이 애노테이션을 만들어준다.<br/>
 <pre>
 @Retention(RetentionPolicy.CLASS)
@@ -177,7 +177,7 @@ public class PerfAspect2 {
 어플리케이션을 실행하면 위에서 만든 애노테이션이 붙은 메소드만 AOP가 적용되는 것을 확인할 수 있다.<br/>
 <br/>
 
-### ** 또는 빈 이름으로 AOP를 설정할 수도 있다.
+### ** 또는 빈 이름으로 AOP를 설정할 수도 있다. (모든 메소드)
 아래처럼 설정하면 'simpleEventService3' 빈의 메소드들 모두 AOP를 적용해준다. <br/>
 <pre>
 @Component

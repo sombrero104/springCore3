@@ -3,6 +3,7 @@ package sombrero.aop.spring_aop_annotation;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
 
 /**
@@ -33,6 +34,11 @@ public class PerfAspect2 {
         Object retVal = pjp.proceed(); // 메서드 호출
         System.out.println("# [aop][spring_aop_annotation][PerfAspect2] time: " + (System.currentTimeMillis() - begin));
         return retVal;
+    }
+
+    @Before("bean(simpleEventService3)")
+    public void hello() {
+        System.out.println("hello");
     }
 
 }
