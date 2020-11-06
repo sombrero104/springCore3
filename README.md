@@ -208,7 +208,7 @@ public interface PetRepository extends Repository❮Pet, Integer❯ {
     void save(Pet pet);
 }
 </pre>
-- 트랜잭션 매니저를 가지고 auto commit을 false로 만든다.
+- 먼저, 트랜잭션 매니저를 가지고 auto commit을 false로 만든다.
 - 작업이 끝나면 트랜잭션을 commit 한다. 
 - 작업은 try/catch로 묶여져 있다. 
 - catch 블록 안에서 어떠한 문제가 생겼을 때, 트랜잭션을 롤백 시킨다. 
