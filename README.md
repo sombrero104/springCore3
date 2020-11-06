@@ -28,9 +28,9 @@ Join point의 구체적인 sub set.<br/>
 ## AOP 구현체
 - https://en.wikipedia.org/wiki/Aspect-oriented_programming <br/>
 - 자바에서는 AspectJ, 스프링 AOP <br/>
-<br/>
+<br/><br/>
 
-## AOP 적용 방법
+# AOP 적용 방법
 #### (1) 컴파일 타임<br/>
 자바 파일을 클래스 파일로 만들 때 바이트코드들을 조작. 조작이 된 바이트코드를 생성해냄.<br/>
 별도의 컴파일링이 더 필요.<br/>
