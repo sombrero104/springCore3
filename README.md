@@ -194,6 +194,28 @@ public class PerfAspect2 {
 
 <br/><br/><br/><br/>
 
+# 스프링 데이터 JPA의 트랜잭션 AOP가 하는 일
+<pre>
+public interface PetRepository extends Repository❮Pet, Integer❯ {
+    @Query("SELECT ptype FROM PetType ptype ORDER BY ptype.name")
+    @Transactional(readOnly = true)
+    List❮PetType❯ findPetTypes();
+
+    @Transactional(readOnly = true)
+    Pet findById(Integer id);
+
+    // @Transactional 애노테이션이 생략되어 있을 뿐, 트랜잭션은 적용된다. 
+    void save(Pet pet);
+}
+</pre>
+- 트랜잭션 매니저를 가지고 auto commit을 false로 만든다.
+- 작업이 끝나면 트랜잭션을 commit 한다. 
+- 작업은 try/catch로 묶여져 있다. 
+- catch 블록 안에서 어떠한 문제가 생겼을 때, 트랜잭션을 롤백 시킨다. 
+- 스프링 데이터 JPA가 제공하는 메소드에는 모두 기본적으로 트랜잭션이 적용된다. 
+
+<br/><br/><br/><br/>
+
 # Null-safety
 스프링 프레임워크 5에 추가된 Null 관련 애노테이션<br/>
 목적: (툴의 지원을 받아서) 컴파일 시점에 최대한 NullPointException을 방지하는 것.<br/>
