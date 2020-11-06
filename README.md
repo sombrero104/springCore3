@@ -209,7 +209,7 @@ public interface PetRepository extends Repository❮Pet, Integer❯ {
 }
 </pre>
 - 먼저, 트랜잭션 매니저를 가지고 auto commit을 false로 만든다.
-- 작업이 끝나면 트랜잭션을 commit 한다. 
+- 그리고 작업이 끝나면 트랜잭션을 commit 한다. 
 - 작업은 try/catch로 묶여져 있다. 
 - catch 블록 안에서 어떠한 문제가 생겼을 때, 트랜잭션을 롤백 시킨다. 
 - 스프링 데이터 JPA가 제공하는 메소드에는 모두 기본적으로 트랜잭션이 적용된다. 
